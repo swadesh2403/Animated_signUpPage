@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #27b397;
+  --primary-color: rgb(104, 25, 25);
   --text-dark: #0f172a;
   --text-light: #94a3b8;
   --extra-light: #f8fafc;
-  --white: #ffffff;
+  --white: white;
 }
 
 * {
@@ -127,7 +127,7 @@ input {
 }
 
 .overlay__wrapper {
-  background: url("assets/57-bg.png");
+  background: url("assets/bg.avif");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@ input {
   border: none;
   outline: none;
   font-size: 1rem;
-  color: var(--white);
+  color: white;
   border-radius: 2rem;
   background-color: transparent;
 }
@@ -188,13 +188,13 @@ input {
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: 443px;
+  top: 430px;
   transform: translateX(-50%);
   width: 10rem;
   height: 3rem;
   border: 1px solid var(--white);
   background: transparent;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .right__panel__active .overlay__container {
